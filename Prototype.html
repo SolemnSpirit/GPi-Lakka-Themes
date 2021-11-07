@@ -6,73 +6,65 @@
       <meta name="viewport" content="width=device-width, user-scalable=no" />
       <title>GPi Labels - Prototype</title>
       <link rel="stylesheet" href="public/lightgallery/css/lightgallery.css" />
-      <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
       <link rel="stylesheet" href="public/videojs/video-js.min.css" />
+      <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
       <link rel="stylesheet" href="public/core.css" />
       <link rel="stylesheet" href="public/theme.css" />
   </head>
 
   <body>
 
-    <div>
+    
+    <div id="container">
     
       <!--
         Gallery title
       -->
-      <header style="color: #17baef;">
+      <header>
         <h1><a href="index.html">GPi Labels</a></h1>
       </header>
     
       <!--
         Breadcrumbs of parent albums
       -->
-    
       <nav class="breadcrumbs">
-        <div class="mask"></div>
-    <a class="breadcrumb-item" href="index.html">Home</a>
-          <span class="separator">&gt;</span><a class="breadcrumb-item" href="Prototype.html">Prototype</a>
+    <a class="breadcrumb-item" href="index.html">Home</a>&nbsp;/&nbsp;<a class="breadcrumb-item" href="Prototype.html">Prototype</a>
       </nav>
     
       <!--
-        Main gallery panel
+        Nested albums, if any
       -->
-      <section id="content">
+      <div id="albums">
+      </div>
     
-        <!--
-          Nested albums, if any
-        -->
-        <ul id="albums">
-        </ul>
+      <!--
+        All photos and videos
+      -->
+      <ul id="media" class="clearfix">
+          
+            <li data-src="media/large/Prototype/Prototype%20Label.png"
+                data-sub-html=""
+                data-download-url="media/original/Prototype/Prototype%20Label.png"
+                
+                data-filename="Prototype Label.png"
+          
+              >
+              <a href="media/original/Prototype/Prototype%20Label.png">
+                <img src="media/thumbs/Prototype/Prototype%20Label.png"
+                     width="120"
+                     height="120"
+                     alt="Prototype Label.png" />
+              </a>
+            </li>  </ul>
     
-        <!--
-          All photos and videos
-        -->
-        <ul id="media">
-            
-              <li data-src="media/large/Prototype/Prototype%20Label.png"
-                  data-sub-html=""
-                  data-download-url="media/original/Prototype/Prototype%20Label.png"
-                  
-                  data-filename="Prototype Label.png"
-            
-                >
-                <a href="media/original/Prototype/Prototype%20Label.png">
-                  <img src="media/thumbs/Prototype/Prototype%20Label.png"
-                       width="120"
-                       height="120"
-                       alt="Prototype Label.png" />
-                </a>
-              </li>    </ul>
+      <!--
+        Pagination
+      -->
     
-        <!--
-          Pagination
-        -->
+      <!--
+        Zip file link
+      -->
     
-        <!--
-          Zip file link
-        -->
-    
-      </section>
     
       <!--
         Optional footer
