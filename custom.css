@@ -1,11 +1,11 @@
 /* Your custom styles goes here */
 
-@font-face {font-family: "Early GameBoy"; src: url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.eot"); src: url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.woff") format("woff"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.svg#Early GameBoy") format("svg"); }
+@font-face {font-family: "GBFont"; src: url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.eot"); src: url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.woff") format("woff"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.svg#Early GameBoy") format("svg"); }
 
 
 /* Album name */
 h3 {
-	font-family: Early GameBoy;
+	font-family: GBFont;
 	color: White;
 	font-size: 15px;
 	font-style: italic;
@@ -52,6 +52,7 @@ body {
 
 header {
   color: BlueViolet;
+  font-family: GBFont;
 }
 
 nav-border {
