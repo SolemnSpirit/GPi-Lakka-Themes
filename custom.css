@@ -1,6 +1,8 @@
 /* Your custom styles goes here */
 @font-face {font-family: "GameBoyFont"; src: url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.eot"); src: url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.woff") format("woff"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.svg#Early GameBoy") format("svg"); }
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 /* Album name */
 h3 {
 	font-family: Courier;
@@ -17,7 +19,7 @@ h3 {
 }
 /* Date range of contents */
 .date {
-	font-family: Courier;
+	font-family: 'Press Start 2P', cursive;
 	color: Red;
 	font-size: 15px;
 	font-style: italic;
