@@ -3,21 +3,21 @@
 /* Album name */
 h3 {
 	font-family: Courier;
-	color: Blue;
+	color: White;
 	font-size: 15px;
 	font-style: italic;
 }
 /* Number of albums & photos */
 .summary {
 	font-family: Courier;
-	color: Green;
+	color: White;
 	font-size: 15px;
 	font-style: italic;
 }
 /* Date range of contents */
 .date {
 	font-family: Courier;
-	color: Red;
+	color: White;
 	font-size: 15px;
 	font-style: italic;
 }
