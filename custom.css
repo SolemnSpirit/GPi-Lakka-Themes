@@ -43,7 +43,7 @@ h3 {
 
 body {
   background: #e0f8d0;
-  color: #444;
+  color: Blue;
   font-family: GBFont;
   font-size: 16px;
   font-weight: lighter;
@@ -51,7 +51,7 @@ body {
 }
 
 header {
-  color: #081820;
+  color: Red;
   font-family: GBFont;
 }
 
