@@ -160,18 +160,21 @@ h3 {
 	font-family: Pixeboy;
 	color: White;
 	font-size: 25px;
+	font-weight: normal;
 }
 /* Number of albums & photos */
 .summary {
 	font-family: Pixeboy;
 	color: White;
 	font-size: 25px;
+	font-weight: normal;
 }
 /* Date range of contents */
 .date {
 	font-family: Pixeboy;
 	color: White;
 	font-size: 25px;
+	font-weight: normal;
 }
 
 #albums a {
