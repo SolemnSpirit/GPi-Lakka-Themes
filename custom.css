@@ -1,4 +1,5 @@
 /* Your custom styles goes here */
+@font-face {font-family: "GameBoyFont"; src: url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.eot"); src: url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.woff") format("woff"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.svg#Early GameBoy") format("svg"); }
 
 /* Album name */
 h3 {
@@ -39,9 +40,9 @@ h3 {
 /* Your custom styles goes here */
 
 body {
-  background: Silver url("https://raw.githubusercontent.com/SolemnSpirit/Playnite-Graphics-Repository/master/Background.jpg") no-repeat fixed center;
-  color: #444;
-  font-family: 'Open Sans', sans-serif;
+  background: e0f8d0;
+  color: #081820;
+  font-family: GameBoyFont;
   font-size: 16px;
   font-weight: lighter;
   margin-bottom: 1em;
