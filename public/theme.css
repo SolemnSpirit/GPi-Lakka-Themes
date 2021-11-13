@@ -159,21 +159,21 @@ nav.pagination a {
 h3 {
 	font-family: Pixeboy;
 	color: White;
-	font-size: 15px;
+	font-size: 20px;
 	font-style: italic;
 }
 /* Number of albums & photos */
 .summary {
 	font-family: Pixeboy;
 	color: White;
-	font-size: 15px;
+	font-size: 20px;
 	font-style: italic;
 }
 /* Date range of contents */
 .date {
 	font-family: Pixeboy;
 	color: White;
-	font-size: 15px;
+	font-size: 20px;
 	font-style: italic;
 }
 
@@ -197,7 +197,7 @@ body {
   background: #e0f8d0;
   color: #081820;
   font-family: GameBoyFont;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: lighter;
   margin-bottom: 1em;
 }
