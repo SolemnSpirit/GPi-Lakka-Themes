@@ -1,6 +1,6 @@
 /* Your custom styles goes here */
 @font-face {font-family: "GameBoyFont"; src: url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.eot"); src: url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.woff") format("woff"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.svg#Early GameBoy") format("svg"); }
-@import url('http://fonts.cdnfonts.com/css/zelda-dx');
+@font-face {font-family: "ZeldaFont"; src: url("//db.onlinewebfonts.com/t/630456bff8d3c11ea4511ef8b7184ae3.eot"); src: url("//db.onlinewebfonts.com/t/630456bff8d3c11ea4511ef8b7184ae3.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/630456bff8d3c11ea4511ef8b7184ae3.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/630456bff8d3c11ea4511ef8b7184ae3.woff") format("woff"), url("//db.onlinewebfonts.com/t/630456bff8d3c11ea4511ef8b7184ae3.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/630456bff8d3c11ea4511ef8b7184ae3.svg#Zelda DX TT BRK") format("svg"); }
 /* Album name */
 h3 {
 	font-family: Courier;
@@ -10,7 +10,7 @@ h3 {
 }
 /* Number of albums & photos */
 .summary {
-	font-family: 'Zelda DX TT (BRK)', sans-serif;
+	font-family: ZeldaFont;
 	color: Green;
 	font-size: 15px;
 	font-style: italic;
