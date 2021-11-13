@@ -5,8 +5,8 @@
 
 /* Album name */
 h3 {
-	font-family: Courier;
-	color: Blue;
+	font-family: Pixeboy;
+	color: White;
 	font-size: 15px;
 	font-style: italic;
 }
@@ -19,8 +19,8 @@ h3 {
 }
 /* Date range of contents */
 .date {
-	font-family: 'Zelda DX TT (BRK)', sans-serif;
-	color: Red;
+	font-family: Pixeboy;
+	color: White;
 	font-size: 15px;
 	font-style: italic;
 }
