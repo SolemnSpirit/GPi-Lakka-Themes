@@ -152,28 +152,25 @@ nav.pagination a {
 }
 /* Your custom styles goes here */
 
-@font-face {font-family: "GBFont"; src: url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.eot"); src: url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.woff") format("woff"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.svg#Early GameBoy") format("svg"); }
-
-
 /* Album name */
 h3 {
-	font-family: GBFont;
-	color: White;
+	font-family: Courier;
+	color: Blue;
 	font-size: 15px;
 	font-style: italic;
 }
 /* Number of albums & photos */
 .summary {
-	font-family: GBFont;
-	color: White;
-	font-size: 10px;
+	font-family: Courier;
+	color: Green;
+	font-size: 15px;
 	font-style: italic;
 }
 /* Date range of contents */
 .date {
-	font-family: GBFont;
-	color: White;
-	font-size: 10px;
+	font-family: Courier;
+	color: Red;
+	font-size: 15px;
 	font-style: italic;
 }
 
@@ -194,20 +191,19 @@ h3 {
 /* Your custom styles goes here */
 
 body {
-  background: #e0f8d0;
-  color: Blue;
-  font-family: GBFont;
+  background: Silver url("https://raw.githubusercontent.com/SolemnSpirit/Playnite-Graphics-Repository/master/Background.jpg") no-repeat fixed center;
+  color: #444;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: lighter;
   margin-bottom: 1em;
 }
 
 header {
-  color: Red;
-  font-family: GBFont;
+  color: BlueViolet;
 }
 
 nav-border {
-	color: #081820;
+	color: #fff;
 }
 
