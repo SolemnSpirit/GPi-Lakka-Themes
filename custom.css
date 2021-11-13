@@ -1,8 +1,6 @@
 /* Your custom styles goes here */
 @font-face {font-family: "GameBoyFont"; src: url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.eot"); src: url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.woff") format("woff"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.svg#Early GameBoy") format("svg"); }
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+@import url('http://fonts.cdnfonts.com/css/zelda-dx');
 /* Album name */
 h3 {
 	font-family: Courier;
@@ -12,14 +10,14 @@ h3 {
 }
 /* Number of albums & photos */
 .summary {
-	font-family: Courier;
+	font-family: 'Zelda DX TT (BRK)', sans-serif;
 	color: Green;
 	font-size: 15px;
 	font-style: italic;
 }
 /* Date range of contents */
 .date {
-	font-family: 'Press Start 2P', cursive;
+	font-family: 'Zelda DX TT (BRK)', sans-serif;
 	color: Red;
 	font-size: 15px;
 	font-style: italic;
@@ -45,7 +43,7 @@ body {
   background: #e0f8d0;
   color: #081820;
   font-family: GameBoyFont;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: lighter;
   margin-bottom: 1em;
 }
