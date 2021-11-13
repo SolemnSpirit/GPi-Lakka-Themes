@@ -164,14 +164,14 @@ h3 {
 }
 /* Number of albums & photos */
 .summary {
-	font-family: Courier;
+	font-family: GBFont;
 	color: White;
 	font-size: 15px;
 	font-style: italic;
 }
 /* Date range of contents */
 .date {
-	font-family: Courier;
+	font-family: GBFont;
 	color: White;
 	font-size: 15px;
 	font-style: italic;
@@ -196,7 +196,7 @@ h3 {
 body {
   background: Silver url("https://raw.githubusercontent.com/SolemnSpirit/Playnite-Graphics-Repository/master/Background.jpg") no-repeat fixed center;
   color: #444;
-  font-family: 'Open Sans', sans-serif;
+  font-family: GBFont;
   font-size: 16px;
   font-weight: lighter;
   margin-bottom: 1em;
