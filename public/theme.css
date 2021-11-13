@@ -153,6 +153,8 @@ nav.pagination a {
 /* Your custom styles goes here */
 @font-face {font-family: "GameBoyFont"; src: url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.eot"); src: url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.woff") format("woff"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.svg#Early GameBoy") format("svg"); }
 @font-face {font-family: "ZeldaFont"; src: url("//db.onlinewebfonts.com/t/630456bff8d3c11ea4511ef8b7184ae3.eot"); src: url("//db.onlinewebfonts.com/t/630456bff8d3c11ea4511ef8b7184ae3.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/630456bff8d3c11ea4511ef8b7184ae3.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/630456bff8d3c11ea4511ef8b7184ae3.woff") format("woff"), url("//db.onlinewebfonts.com/t/630456bff8d3c11ea4511ef8b7184ae3.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/630456bff8d3c11ea4511ef8b7184ae3.svg#Zelda DX TT BRK") format("svg"); }
+@font-face {font-family: "Pixeboy"; src: url("//db.onlinewebfonts.com/t/3118b7f4e7160b4cd86ad75ad9e2a074.eot"); src: url("//db.onlinewebfonts.com/t/3118b7f4e7160b4cd86ad75ad9e2a074.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3118b7f4e7160b4cd86ad75ad9e2a074.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3118b7f4e7160b4cd86ad75ad9e2a074.woff") format("woff"), url("//db.onlinewebfonts.com/t/3118b7f4e7160b4cd86ad75ad9e2a074.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3118b7f4e7160b4cd86ad75ad9e2a074.svg#Pixeboy") format("svg"); }
+
 /* Album name */
 h3 {
 	font-family: Courier;
@@ -162,7 +164,7 @@ h3 {
 }
 /* Number of albums & photos */
 .summary {
-	font-family: ZeldaFont;
+	font-family: Pixeboy;
 	color: Green;
 	font-size: 15px;
 	font-style: italic;
