@@ -46,8 +46,13 @@ h1 {
     padding: 0.25em 0;
     text-overflow: ellipsis;
     overflow: hidden;
-    font-family: Pixeboy;	
+    font-family: Pixeboy;
+    font-size: 18px;
 }
+
+.lg-actions .lg-prev:hover { color: var(--GB2);}
+
+.lg-toolbar .lg-icon:hover { color: var(--GB3);}
 
 /* Album details background */
 #albums .info {
@@ -91,6 +96,29 @@ h1 {
     height: 220px;
     background-size: cover;
     border-radius: 4px;
+}
+
+#lg-counter {
+    color: var(--GB2);
+    display: inline-block;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-top: 12px;
+    vertical-align: middle;
+}
+
+.lg-toolbar .lg-icon {
+    color: var(--GB2);
+    cursor: pointer;
+    float: right;
+    font-size: 24px;
+    height: 47px;
+    line-height: 27px;
+    padding: 10px 0;
+    text-align: center;
+    width: 50px;
+    text-decoration: none !important;
+    outline: medium none;
 }
 
 /* Your custom styles goes here */
