@@ -234,3 +234,5 @@ nav-border {
 /* Gallery: Gallery background */
 .lg-outer { background-color: var(--GB1);}
 
+div.lg-toolbar.group { background-color: var(--GB4);}
+
