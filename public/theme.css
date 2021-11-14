@@ -155,13 +155,16 @@ nav.pagination a {
 @font-face {font-family: "ZeldaFont"; src: url("//db.onlinewebfonts.com/t/630456bff8d3c11ea4511ef8b7184ae3.eot"); src: url("//db.onlinewebfonts.com/t/630456bff8d3c11ea4511ef8b7184ae3.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/630456bff8d3c11ea4511ef8b7184ae3.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/630456bff8d3c11ea4511ef8b7184ae3.woff") format("woff"), url("//db.onlinewebfonts.com/t/630456bff8d3c11ea4511ef8b7184ae3.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/630456bff8d3c11ea4511ef8b7184ae3.svg#Zelda DX TT BRK") format("svg"); }
 @font-face {font-family: "Pixeboy"; src: url("//db.onlinewebfonts.com/t/3118b7f4e7160b4cd86ad75ad9e2a074.eot"); src: url("//db.onlinewebfonts.com/t/3118b7f4e7160b4cd86ad75ad9e2a074.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3118b7f4e7160b4cd86ad75ad9e2a074.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3118b7f4e7160b4cd86ad75ad9e2a074.woff") format("woff"), url("//db.onlinewebfonts.com/t/3118b7f4e7160b4cd86ad75ad9e2a074.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3118b7f4e7160b4cd86ad75ad9e2a074.svg#Pixeboy") format("svg"); }
 
+a.breadcrumb-item {
+    font-size: 20px;
+}
+
 h1 {
 	font-family: GameBoyFont;
 	color: White;
-	font-size: 20px;
+	font-size: 25px;
 	font-weight: normal;
 }
-
 
 /* Album name */
 h3 {
