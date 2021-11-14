@@ -156,7 +156,7 @@ nav.pagination a {
 @font-face {font-family: "Pixeboy"; src: url("//db.onlinewebfonts.com/t/3118b7f4e7160b4cd86ad75ad9e2a074.eot"); src: url("//db.onlinewebfonts.com/t/3118b7f4e7160b4cd86ad75ad9e2a074.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3118b7f4e7160b4cd86ad75ad9e2a074.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3118b7f4e7160b4cd86ad75ad9e2a074.woff") format("woff"), url("//db.onlinewebfonts.com/t/3118b7f4e7160b4cd86ad75ad9e2a074.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3118b7f4e7160b4cd86ad75ad9e2a074.svg#Pixeboy") format("svg"); }
 
 h1 {
-	font-family: Pixeboy;
+	font-family: GameBoyFont;
 	color: White;
 	font-size: 20px;
 	font-weight: normal;
