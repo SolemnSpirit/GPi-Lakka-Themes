@@ -1,3 +1,11 @@
+:root {
+    --GB1: #e0f8d0;
+    --GB2: #88c070; 
+    --GB3: #346856; 
+    --GB4: #081820; 
+}
+
+
 /* Your custom styles goes here */
 @font-face {font-family: "GameBoyFont"; src: url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.eot"); src: url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.woff") format("woff"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.svg#Early GameBoy") format("svg"); }
 @font-face {font-family: "ZeldaFont"; src: url("//db.onlinewebfonts.com/t/630456bff8d3c11ea4511ef8b7184ae3.eot"); src: url("//db.onlinewebfonts.com/t/630456bff8d3c11ea4511ef8b7184ae3.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/630456bff8d3c11ea4511ef8b7184ae3.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/630456bff8d3c11ea4511ef8b7184ae3.woff") format("woff"), url("//db.onlinewebfonts.com/t/630456bff8d3c11ea4511ef8b7184ae3.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/630456bff8d3c11ea4511ef8b7184ae3.svg#Zelda DX TT BRK") format("svg"); }
@@ -6,7 +14,7 @@
 /* Breadcrumb items */
 a.breadcrumb-item {
     font-size: 15px;
-    color: #88c070;
+    color: var(--GB2);
 }
 /* Site Name */
 h1 {
@@ -19,7 +27,7 @@ h1 {
 /* Album name */
 h3 {
 	font-family: Pixeboy;
-	color: White;
+    color: var(--GB4);
 	font-size: 25px;
 	font-weight: normal;
 }
@@ -41,14 +49,14 @@ h3 {
 /* Number of albums & photos */
 .summary {
 	font-family: Pixeboy;
-	color: White;
+    color: var(--GB4);
 	font-size: 25px;
 	font-weight: normal;
 }
 /* Date range of contents */
 .date {
 	font-family: Pixeboy;
-	color: White;
+    color: var(--GB4);
 	font-size: 0px;
 	font-weight: normal;
 }
@@ -70,8 +78,8 @@ h3 {
 /* Your custom styles goes here */
 
 body {
-  background: #e0f8d0;
-  color: #081820;
+  background: var(--e0f8d0);
+  color: var(--GB4);
   font-family: GameBoyFont;
   font-size: 12px;
   font-weight: lighter;
