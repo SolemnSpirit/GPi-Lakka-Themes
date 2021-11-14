@@ -227,5 +227,8 @@ nav-border {
 /* Gallery: Thumbnail bar toggle */
 .lg-outer .lg-toogle-thumb { color: var(--GB2); }
 /* Gallery: Thumbnail border */
-.lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover { border-color: var(--GB2); }
+.lg-outer .lg-outer .lg-thumb-item:hover { border-color: var(--GB2); }
+.lg-outer .lg-thumb-item.active { border-color: var(--GB1); }
+/* Gallery: Thumbnail background */
+.lg-outer .lg-thumb-outer { background-color: var(--GB3); }
 
