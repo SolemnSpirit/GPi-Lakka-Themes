@@ -6,7 +6,7 @@
 a.breadcrumb-item {
     font-size: 15px;
 }
-
+/* Site Name */
 h1 {
 	font-family: GameBoyFont;
 	color: White;
@@ -21,6 +21,21 @@ h3 {
 	font-size: 25px;
 	font-weight: normal;
 }
+/* Album details background */
+#albums .info {
+    position: absolute;
+    padding: 1em
+;
+    background: rgba(8, 24, 32, 0.3);
+    color: #fff;
+    font-size: 0.9em;
+    line-height: 1.2em;
+    margin: 0;
+    width: 100%;
+    font-weight: bold;
+    bottom: 0;
+}
+
 /* Number of albums & photos */
 .summary {
 	font-family: Pixeboy;
