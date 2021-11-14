@@ -166,6 +166,10 @@ nav.pagination a {
 body { background: var(--GB1); color: var(--GB4); font-family: GameBoyFont; font-size: 12px; font-weight: lighter; margin-bottom: 1em; }
 /* Site Name */
 h1 a { font-family: GameBoyFont; color: var(--GB4); font-size: 35px; font-weight: normal; }
+
+h1 a {
+    color: blue;
+}
 /* Breadcrumb items */
 a.breadcrumb-item { font-size: 15px; color: var(--GB2); }
 
