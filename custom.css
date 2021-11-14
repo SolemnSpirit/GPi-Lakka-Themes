@@ -81,3 +81,5 @@ nav-border {
 .lg-outer .lg-thumb-outer { background-color: var(--GB3); }
 /* Gallery: Gallery background */
 .lg-outer { background-color: var(--GB1);}
+
+div.lg-toolbar.group { background-color: var(--GB4);}
