@@ -183,6 +183,11 @@ h3 {
 	font-size: 25px;
 	font-weight: normal;
 }
+/* Image name in slideshow view */
+.lg-exif h3 {
+font-family: Pixeboy;
+  color: var(--GB2);
+}
 /* Album details background */
 #albums .info {
     position: absolute;
