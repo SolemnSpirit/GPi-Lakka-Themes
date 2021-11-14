@@ -6,7 +6,7 @@
 h1 {
 	font-family: Pixeboy;
 	color: White;
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: normal;
 }
 
@@ -53,7 +53,7 @@ body {
   background: #e0f8d0;
   color: #081820;
   font-family: GameBoyFont;
-  font-size: 20px;
+  font-size: 12px;
   font-weight: lighter;
   margin-bottom: 1em;
 }
