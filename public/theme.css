@@ -223,6 +223,9 @@ nav-border {
 /* Gallery: Exif details - Filename */
 .lg-exif li { list-style: none; padding: 0.25em 0; text-overflow: ellipsis; overflow: hidden; font-family: Pixeboy; font-size: 18px;}
 /* Gallery: Slideshow progress bar */
-.lg-progress-bar .lg-progress { background-color: var(--GB2); height: 5px; width: 0;
-}
+.lg-progress-bar .lg-progress { background-color: var(--GB2); height: 5px; width: 0;}
+/* Gallery: Thumbnail bar toggle */
+.lg-outer .lg-toogle-thumb { color: var(--GB2); }
+/* Gallery: Thumbnail border */
+.lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover { border-color: var(--GB2); }
 
