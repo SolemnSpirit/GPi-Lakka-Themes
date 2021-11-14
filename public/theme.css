@@ -157,84 +157,29 @@ nav.pagination a {
     --GB4: #081820; 
 }
 
-
-/* Your custom styles goes here */
+/* Font definitions */
 @font-face {font-family: "GameBoyFont"; src: url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.eot"); src: url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.woff") format("woff"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3ada9815c06d2619d52d16a5601c96b2.svg#Early GameBoy") format("svg"); }
 @font-face {font-family: "ZeldaFont"; src: url("//db.onlinewebfonts.com/t/630456bff8d3c11ea4511ef8b7184ae3.eot"); src: url("//db.onlinewebfonts.com/t/630456bff8d3c11ea4511ef8b7184ae3.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/630456bff8d3c11ea4511ef8b7184ae3.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/630456bff8d3c11ea4511ef8b7184ae3.woff") format("woff"), url("//db.onlinewebfonts.com/t/630456bff8d3c11ea4511ef8b7184ae3.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/630456bff8d3c11ea4511ef8b7184ae3.svg#Zelda DX TT BRK") format("svg"); }
 @font-face {font-family: "Pixeboy"; src: url("//db.onlinewebfonts.com/t/3118b7f4e7160b4cd86ad75ad9e2a074.eot"); src: url("//db.onlinewebfonts.com/t/3118b7f4e7160b4cd86ad75ad9e2a074.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3118b7f4e7160b4cd86ad75ad9e2a074.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3118b7f4e7160b4cd86ad75ad9e2a074.woff") format("woff"), url("//db.onlinewebfonts.com/t/3118b7f4e7160b4cd86ad75ad9e2a074.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3118b7f4e7160b4cd86ad75ad9e2a074.svg#Pixeboy") format("svg"); }
 
-/* Breadcrumb items */
-a.breadcrumb-item {
-    font-size: 15px;
-    color: var(--GB2);
-}
+/* Body */
+body { background: var(--GB1); color: var(--GB4); font-family: GameBoyFont; font-size: 12px; font-weight: lighter; margin-bottom: 1em; }
 /* Site Name */
-h1 {
-    font-family: GameBoyFont;
-    color: White;
-    font-size: 35px;
-    font-weight: normal;
-}
+h1 { font-family: GameBoyFont; color: White; font-size: 35px; font-weight: normal; }
+/* Breadcrumb items */
+a.breadcrumb-item { font-size: 15px; color: var(--GB2); }
 
-#albums h3 {
-    /* font-size: 2em; */
-    margin-bottom: 0.2em;
-    font-family: Pixeboy;
-    color: var(--GB4);
-    font-size: 25px;
-    font-weight: normal;
-}
 
-/* Image name in slideshow view */
-.lg-exif h3 {
-    float: left;
-    font-size: 1.5em;
-    padding-bottom: 0.4em;
-    color: var(--GB2);
-}
+/* Album details */
 
-.lg-exif li {
-    list-style: none;
-    padding: 0.25em 0;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    font-family: Pixeboy;
-    font-size: 18px;
-}
-
-.lg-actions .lg-prev:hover { color: var(--GB2);}
-
-.lg-toolbar .lg-icon:hover { color: var(--GB3);}
-
-/* Album details background */
-#albums .info {
-    position: absolute;
-    padding: 1em;
-    background: rgba(136, 192, 112, 0.65);
-    color: #fff;
-    font-size: 0.9em;
-    line-height: 1.2em;
-    margin: 0;
-    width: 100%;
-    font-weight: bold;
-    bottom: 0;
-}
-
-/* Number of albums & photos */
-.summary {
-    font-family: Pixeboy;
-    color: var(--GB4);
-    font-size: 25px;
-    font-weight: normal;
-}
-
-/* Date range of contents */
-.date {
-    font-family: Pixeboy;
-    color: var(--GB4);
-    font-size: 0px;
-    font-weight: normal;
-}
+/* Album details: Album name */
+#albums h3 { /* font-size: 2em; */ margin-bottom: 0.2em; font-family: Pixeboy; color: var(--GB4); font-size: 25px; font-weight: normal; }
+/* Album details: Background */
+#albums .info { background: rgba(136, 192, 112, 0.65); color: #fff; font-size: 0.9em; line-height: 1.2em; font-weight: bold; bottom: 0;}
+/* Album details: Number of albums & photos */
+.summary { font-family: Pixeboy; color: var(--GB4); font-size: 25px; font-weight: normal; }
+/* Album details: Date range of contents */
+.date { font-family: Pixeboy; color: var(--GB4); font-size: 0px; font-weight: normal; }
 
 #albums a {
     -webkit-font-smoothing: antialiased;
@@ -250,39 +195,7 @@ h1 {
     border-radius: 4px;
 }
 
-#lg-counter {
-    color: var(--GB2);
-    display: inline-block;
-    font-size: 16px;
-    padding-left: 20px;
-    padding-top: 12px;
-    vertical-align: middle;
-}
 
-.lg-toolbar .lg-icon {
-    color: var(--GB2);
-    cursor: pointer;
-    float: right;
-    font-size: 24px;
-    height: 47px;
-    line-height: 27px;
-    padding: 10px 0;
-    text-align: center;
-    width: 50px;
-    text-decoration: none !important;
-    outline: medium none;
-}
-
-/* Your custom styles goes here */
-
-body {
-    background: var(--GB1);
-    color: var(--GB4);
-    font-family: GameBoyFont;
-    font-size: 12px;
-    font-weight: lighter;
-    margin-bottom: 1em;
-}
 
 header {
     color: BlueViolet;
@@ -291,4 +204,22 @@ header {
 nav-border {
     color: #fff;
 }
+
+/* Gallery items */
+
+/* Gallery: Toolbar icons */
+.lg-toolbar .lg-icon { color: var(--GB2);}
+.lg-toolbar .lg-icon:hover { color: var(--GB3);}
+/* Gallery: Image counter */
+#lg-counter { color: var(--GB2);}
+/* Gallery: Back arrow */
+.lg-actions .lg-prev { color: var(--GB2);}
+.lg-actions .lg-prev:hover { color: var(--GB3);}
+/* Gallery: Forward arrow */
+.lg-toolbar .lg-icon { color: var(--GB2);}
+.lg-toolbar .lg-icon:hover { color: var(--GB3);}
+/* Gallery: Exif details - Heading */
+.lg-exif h3 { float: left; font-size: 1.5em; padding-bottom: 0.4em; color: var(--GB2); }
+/* Gallery: Exif details - Filename */
+.lg-exif li { list-style: none; padding: 0.25em 0; text-overflow: ellipsis; overflow: hidden; font-family: Pixeboy; font-size: 18px;}
 
