@@ -63,11 +63,11 @@ nav-border {
 /* Gallery: Back arrow */
 .lg-actions .lg-prev { color: var(--GB2);}
 .lg-actions .lg-prev:hover { color: var(--GB3);}
-.lg-actions .lg-prev { background-color: rgba(200,150,150, 0.45);}
+.lg-actions .lg-prev { background-color: rgba(8,24,32, 0.75);}
 /* Gallery: Forward arrow */
 .lg-actions .lg-next { color: var(--GB2);}
 .lg-actions .lg-next:hover, .lg-actions .lg-prev:hover { color: var(--GB3);}
-.lg-actions .lg-next { background-color: rgba(200,150,150, 0.45);}
+.lg-actions .lg-next { background-color: rgba(8,24,32, 0.75);}
 /* Gallery: Exif details - Heading */
 .lg-exif h3 { float: left; font-size: 1.5em; padding-bottom: 0.4em; color: var(--GB2); }
 /* Gallery: Exif details - Filename */
