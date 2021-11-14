@@ -21,13 +21,13 @@ a.breadcrumb-item { font-size: 15px; color: var(--GB2); }
 /* Album details */
 
 /* Album details: Album name */
-#albums h3 { /* font-size: 2em; */ margin-bottom: 0.2em; font-family: Pixeboy; color: var(--GB4); font-size: 25px; font-weight: normal; }
+#albums h3 { /* font-size: 2em; */ margin-bottom: 0.2em; font-family: Pixeboy; color: var(--GB2); font-size: 25px; font-weight: normal; }
 /* Album details: Background */
-#albums .info { background: rgba(136, 192, 112, 0.65); color: #fff; font-size: 0.9em; line-height: 1.2em; font-weight: bold; bottom: 0;}
+#albums .info { background: rgba(8, 24, 32, 1); color: #fff; font-size: 0.9em; line-height: 1.2em; font-weight: bold; bottom: 0;}
 /* Album details: Number of albums & photos */
-.summary { font-family: Pixeboy; color: var(--GB4); font-size: 25px; font-weight: normal; }
+.summary { font-family: Pixeboy; color: var(--GB2); font-size: 25px; font-weight: normal; }
 /* Album details: Date range of contents */
-.date { font-family: Pixeboy; color: var(--GB4); font-size: 0px; font-weight: normal; }
+.date { font-family: Pixeboy; color: var(--GB2); font-size: 0px; font-weight: normal; }
 
 #albums a {
     -webkit-font-smoothing: antialiased;
