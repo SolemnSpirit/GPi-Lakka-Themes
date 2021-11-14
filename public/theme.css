@@ -231,4 +231,6 @@ nav-border {
 .lg-outer .lg-thumb-item.active { border-color: var(--GB1); }
 /* Gallery: Thumbnail background */
 .lg-outer .lg-thumb-outer { background-color: var(--GB3); }
+/* Gallery: Gallery background */
+.lg { background-color: var(--GB1);}
 
