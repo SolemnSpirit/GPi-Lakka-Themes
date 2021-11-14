@@ -170,18 +170,18 @@ a.breadcrumb-item {
 }
 /* Site Name */
 h1 {
-	font-family: GameBoyFont;
-	color: White;
-	font-size: 25px;
-	font-weight: normal;
+    font-family: GameBoyFont;
+    color: White;
+    font-size: 25px;
+    font-weight: normal;
 }
 
 /* Album name */
 h3 {
-	font-family: Pixeboy;
+    font-family: Pixeboy;
     color: var(--GB4);
-	font-size: 25px;
-	font-weight: normal;
+    font-size: 25px;
+    font-weight: normal;
 }
 
 /* Image name in slideshow view */
@@ -192,11 +192,18 @@ h3 {
     color: var(--GB2);
 }
 
+.lg-exif li {
+    list-style: none;
+    padding: 0.25em 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-family: Pixeboy;	
+}
+
 /* Album details background */
 #albums .info {
     position: absolute;
-    padding: 1em
-;
+    padding: 1em;
     background: rgba(136, 192, 112, 0.65);
     color: #fff;
     font-size: 0.9em;
@@ -209,49 +216,50 @@ h3 {
 
 /* Number of albums & photos */
 .summary {
-	font-family: Pixeboy;
+    font-family: Pixeboy;
     color: var(--GB4);
-	font-size: 25px;
-	font-weight: normal;
+    font-size: 25px;
+    font-weight: normal;
 }
+
 /* Date range of contents */
 .date {
-	font-family: Pixeboy;
+    font-family: Pixeboy;
     color: var(--GB4);
-	font-size: 0px;
-	font-weight: normal;
+    font-size: 0px;
+    font-weight: normal;
 }
 
 #albums a {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  display: inline-block;
-  margin-right: 2em;
-  margin-bottom: 3em;
-  position: relative;
-  overflow: hidden;
-  width: 280px;
-  height: 220px;
-  background-size: cover;
-  border-radius: 4px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    margin-right: 2em;
+    margin-bottom: 3em;
+    position: relative;
+    overflow: hidden;
+    width: 280px;
+    height: 220px;
+    background-size: cover;
+    border-radius: 4px;
 }
 
 /* Your custom styles goes here */
 
 body {
-  background: var(--GB1);
-  color: var(--GB4);
-  font-family: GameBoyFont;
-  font-size: 12px;
-  font-weight: lighter;
-  margin-bottom: 1em;
+    background: var(--GB1);
+    color: var(--GB4);
+    font-family: GameBoyFont;
+    font-size: 12px;
+    font-weight: lighter;
+    margin-bottom: 1em;
 }
 
 header {
-  color: BlueViolet;
+    color: BlueViolet;
 }
 
 nav-border {
-	color: #fff;
+    color: #fff;
 }
 
