@@ -17,6 +17,7 @@ h1 { font-family: GameBoyFont; color: White; font-size: 35px; font-weight: norma
 /* Breadcrumb items */
 a.breadcrumb-item { font-size: 15px; color: var(--GB2); }
 
+footer { color: var(--GB4); }
 
 /* Album details */
 
